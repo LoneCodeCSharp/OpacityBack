@@ -1,0 +1,136 @@
+﻿<Window x:Class="OpacityBack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp14"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="700" Background="#252525" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Border x:Name="b1" Margin="0.5" MouseEnter="b1_MouseEnter"  Grid.Column="0" Grid.Row="0" Background="#d43cf5" Opacity="0.1"/>
+        <Border x:Name="b2" Margin="0.5" Grid.Column="1" Grid.Row="0" Background="#d43cf5" MouseEnter="b2_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b3" Margin="0.5" Grid.Column="2" Grid.Row="0" Background="#d43cf5" MouseEnter="b3_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b4" Margin="0.5" Grid.Column="3" Grid.Row="0" Background="#d43cf5" MouseEnter="b4_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b5" Margin="0.5" Grid.Column="4" Grid.Row="0" Background="#d43cf5" MouseEnter="b5_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b6" Margin="0.5" Grid.Column="5" Grid.Row="0" Background="#d43cf5" MouseEnter="b6_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b7" Margin="0.5" Grid.Column="6" Grid.Row="0" Background="#d43cf5" MouseEnter="b7_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b8" Margin="0.5" Grid.Column="7" Grid.Row="0" Background="#d43cf5" MouseEnter="b8_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b9" Margin="0.5" Grid.Column="11" Grid.Row="5" Background="#d43cf5" MouseEnter="b9_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b10" Margin="0.5" Grid.Column="0" Grid.Row="1" Background="#d43cf5" MouseEnter="b10_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b11" Margin="0.5" Grid.Column="0" Grid.Row="2" Background="#d43cf5" MouseEnter="b11_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b12" Margin="0.5" Grid.Column="0" Grid.Row="3" Background="#d43cf5" MouseEnter="b12_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b13" Margin="0.5" Grid.Column="0" Grid.Row="4" Background="#d43cf5" MouseEnter="b13_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b14" Margin="0.5" Grid.Column="0" Grid.Row="5" Background="#d43cf5" MouseEnter="b14_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b15" Margin="0.5" Grid.Column="0" Grid.Row="6" Background="#d43cf5" MouseEnter="b15_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b16" Margin="0.5" Grid.Column="0" Grid.Row="7" Background="#d43cf5" MouseEnter="b16_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b17" Margin="0.5" Grid.Column="7" Grid.Row="7" Background="#d43cf5" MouseEnter="b17_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b18" Margin="0.5" Grid.Column="1" Grid.Row="1" Background="#d43cf5" MouseEnter="b18_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b19" Margin="0.5" Grid.Column="1" Grid.Row="2" Background="#d43cf5" MouseEnter="b19_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b20" Margin="0.5" Grid.Column="1" Grid.Row="3" Background="#d43cf5" MouseEnter="b20_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b21" Margin="0.5" Grid.Column="1" Grid.Row="4" Background="#d43cf5" MouseEnter="b21_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b22" Margin="0.5" Grid.Column="1" Grid.Row="5" Background="#d43cf5" MouseEnter="b22_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b23" Margin="0.5" Grid.Column="1" Grid.Row="6" Background="#d43cf5" MouseEnter="b23_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b24" Margin="0.5" Grid.Column="1" Grid.Row="7" Background="#d43cf5" MouseEnter="b24_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b25" Margin="0.5" Grid.Column="7" Grid.Row="6" Background="#d43cf5" MouseEnter="b25_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b26" Margin="0.5" Grid.Column="2" Grid.Row="1" Background="#d43cf5" MouseEnter="b26_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b27" Margin="0.5" Grid.Column="2" Grid.Row="2" Background="#d43cf5" MouseEnter="b27_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b28" Margin="0.5" Grid.Column="2" Grid.Row="3" Background="#d43cf5" MouseEnter="b28_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b29" Margin="0.5" Grid.Column="2" Grid.Row="4" Background="#d43cf5" MouseEnter="b29_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b30" Margin="0.5" Grid.Column="2" Grid.Row="5" Background="#d43cf5" MouseEnter="b30_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b31" Margin="0.5" Grid.Column="2" Grid.Row="6" Background="#d43cf5" MouseEnter="b31_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b32" Margin="0.5" Grid.Column="2" Grid.Row="7" Background="#d43cf5" MouseEnter="b32_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b33" Margin="0.5" Grid.Column="3" Grid.Row="1" Background="#d43cf5" MouseEnter="b33_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b34" Margin="0.5" Grid.Column="3" Grid.Row="2" Background="#d43cf5" MouseEnter="b34_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b35" Margin="0.5" Grid.Column="3" Grid.Row="3" Background="#d43cf5" MouseEnter="b35_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b36" Margin="0.5" Grid.Column="3" Grid.Row="4" Background="#d43cf5" MouseEnter="b36_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b37" Margin="0.5" Grid.Column="3" Grid.Row="5" Background="#d43cf5" MouseEnter="b37_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b38" Margin="0.5" Grid.Column="3" Grid.Row="6" Background="#d43cf5" MouseEnter="b38_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b39" Margin="0.5" Grid.Column="3" Grid.Row="7" Background="#d43cf5" MouseEnter="b39_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b40" Margin="0.5" Grid.Column="4" Grid.Row="1" Background="#d43cf5" MouseEnter="b40_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b41" Margin="0.5" Grid.Column="8" Grid.Row="0" Background="#d43cf5" MouseEnter="b41_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b42" Margin="0.5" Grid.Column="10" Grid.Row="2" Background="#d43cf5" MouseEnter="b42_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b43" Margin="0.5" Grid.Column="11" Grid.Row="2" Background="#d43cf5" MouseEnter="b43_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b44" Margin="0.5" Grid.Column="9" Grid.Row="6" Background="#d43cf5" MouseEnter="b44_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b45" Margin="0.5" Grid.Column="4" Grid.Row="6" Background="#d43cf5" MouseEnter="b45_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b46" Margin="0.5" Grid.Column="4" Grid.Row="7" Background="#d43cf5" MouseEnter="b46_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b47" Margin="0.5" Grid.Column="5" Grid.Row="1" Background="#d43cf5" MouseEnter="b47_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b48" Margin="0.5" Grid.Column="9" Grid.Row="2" Background="#d43cf5" MouseEnter="b48_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b49" Margin="0.5" Grid.Column="10" Grid.Row="3" Background="#d43cf5" MouseEnter="b49_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b50" Margin="0.5" Grid.Column="11" Grid.Row="3" Background="#d43cf5" MouseEnter="b50_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b51" Margin="0.5" Grid.Column="8" Grid.Row="6" Background="#d43cf5" MouseEnter="b51_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b52" Margin="0.5" Grid.Column="5" Grid.Row="6" Background="#d43cf5" MouseEnter="b52_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b53" Margin="0.5" Grid.Column="5" Grid.Row="7" Background="#d43cf5" MouseEnter="b53_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b54" Margin="0.5" Grid.Column="6" Grid.Row="1" Background="#d43cf5" MouseEnter="b54_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b55" Margin="0.5" Grid.Column="8" Grid.Row="1" Background="#d43cf5" MouseEnter="b55_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b56" Margin="0.5" Grid.Column="9" Grid.Row="3" Background="#d43cf5" MouseEnter="b56_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b57" Margin="0.5" Grid.Column="8" Grid.Row="5" Background="#d43cf5" MouseEnter="b57_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b58" Margin="0.5" Grid.Column="9" Grid.Row="5" Background="#d43cf5" MouseEnter="b58_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b59" Margin="0.5" Grid.Column="6" Grid.Row="6" Background="#d43cf5" MouseEnter="b59_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b60" Margin="0.5" Grid.Column="6" Grid.Row="7" Background="#d43cf5" MouseEnter="b60_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b61" Margin="0.5"  Grid.Column="7" Grid.Row="1" Background="#d43cf5" MouseEnter="b61_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b62" Margin="0.5" Grid.Column="8" Grid.Row="2" Background="#d43cf5" MouseEnter="b62_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b63" Margin="0.5" Grid.Column="8" Grid.Row="3" Background="#d43cf5" MouseEnter="b63_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b64" Margin="0.5" Grid.Column="8" Grid.Row="4" Background="#d43cf5" MouseEnter="b64_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b65" Margin="0.5" Grid.Column="9" Grid.Row="4" Background="#d43cf5" MouseEnter="b65_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b66" Margin="0.5" Grid.Column="10" Grid.Row="4" Background="#d43cf5" MouseEnter="b66_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b67" Margin="0.5" Grid.Column="11" Grid.Row="4" Background="#d43cf5" MouseEnter="b67_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b68" Margin="0.5" Grid.Column="10" Grid.Row="5" Background="#d43cf5" MouseEnter="b68_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b70" Margin="0.5" Grid.Column="8" Grid.Row="7" Background="#d43cf5"  MouseEnter="b70_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b71" Margin="0.5" Grid.Column="9" Grid.Row="7" Background="#d43cf5"  MouseEnter="b71_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b72" Margin="0.5" Grid.Column="10" Grid.Row="7" Background="#d43cf5" MouseEnter="b72_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b73" Margin="0.5" Grid.Column="11" Grid.Row="7" Background="#d43cf5" MouseEnter="b73_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b74" Margin="0.5" Grid.Column="10" Grid.Row="6" Background="#d43cf5" MouseEnter="b74_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b75" Margin="0.5" Grid.Column="11" Grid.Row="6" Background="#d43cf5" MouseEnter="b75_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b76" Margin="0.5" Grid.Column="10" Grid.Row="0" Background="#d43cf5" MouseEnter="b76_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b77" Margin="0.5" Grid.Column="9" Grid.Row="0" Background="#d43cf5"  MouseEnter="b77_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b78" Margin="0.5" Grid.Column="11" Grid.Row="0" Background="#d43cf5" MouseEnter="b78_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b79" Margin="0.5" Grid.Column="9" Grid.Row="1" Background="#d43cf5"  MouseEnter="b79_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b80" Margin="0.5" Grid.Column="10" Grid.Row="1" Background="#d43cf5" MouseEnter="b80_MouseEnter" Opacity="0.1"/>
+        <Border x:Name="b81" Margin="0.5" Grid.Column="11" Grid.Row="1" Background="#d43cf5" MouseEnter="b81_MouseEnter" Opacity="0.1"/>
+
+        <Border Background="#252525" Grid.Column="0" Grid.Row="0" CornerRadius="10" Grid.RowSpan="8" Grid.ColumnSpan="12" VerticalAlignment="Center" HorizontalAlignment="Center" Width="260" Height="260">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="50" ShadowDepth="0" Direction="130" Opacity="0.7"/>
+            </Border.Effect>
+            
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Sign In" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 10 0 0" Foreground="White" FontSize="20" FontWeight="DemiBold"/>
+                <Border Width="200" Height="35" CornerRadius="6" Background="#555555" Margin="0 30 0 0">
+                    <TextBlock Text="Login" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" Margin="10 0 0 0"  Foreground="Gray"/>
+                </Border>
+                <Border Width="200" Height="35" CornerRadius="6" Background="#555555" Margin="0 20 0 0">
+                    <TextBlock Text="Password" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15" Margin="10 0 0 0"  Foreground="Gray"/>
+                </Border>
+                <Border Width="150" Height="35" CornerRadius="6" Background="White" Margin="0 45 0 0">
+                    <TextBlock Text="OK" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Foreground="Black" FontWeight="DemiBold"/>
+                </Border>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
